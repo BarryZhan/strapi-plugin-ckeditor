@@ -110,5 +110,9 @@ export const style = css`
         transition-duration: 0.2s;
       }
     }
+
+    .ck.ck-editor__editable .ck-maximum-length-excess {
+      background-color: hsla(0 60% 50% / 0.3);
+    }
   }
 `;
